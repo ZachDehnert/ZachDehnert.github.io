@@ -56,3 +56,181 @@ a {
 
 #main {
   padding: 50px; }
+
+/* End of CS 160 Code                                                                      */
+
+.chapter-header {
+  font-weight: bold;
+  padding: 10px 0 10px 10px;
+}
+
+#name-and-bio {
+  /* border: 1px solid red; */
+  /* float: left; */
+  padding: 10px 0 10px 10px;
+}
+
+#name-tag {
+  font-size: 16pt;
+}
+
+.sub-name-tag {
+  font-size: 10pt;
+}
+
+#profile-pic {
+  /* background-color: #00b2dd; */
+  /* border: 1px solid #00b2dd; */
+  float: left;
+  padding: 10px 0 10px 10px;
+  width: 22%;
+}
+
+.weekly-header {
+  font-size: 24pt;
+  padding: 10px 0 10px 10px;
+}
+
+.content-header {
+  font-size: 16pt;
+  padding: 10px 0 10px 10px;
+}
+.questions {
+  padding: 10px 0 10px 10px;
+}
+
+#wrapper {
+  /* border: 1px solid purple; */
+  overflow: hidden;
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) { 
+    #profile-pic {
+      /* background-color: #00b2dd; */
+      /* border: 1px solid #00b2dd; */
+      float: none;
+      padding: 10px 0 10px 10px;
+      width: 22%;
+    }
+
+    
+}
+
+/* Portrait */
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) 
+  and (orientation: portrait) { 
+
+    #profile-pic {
+      /* background-color: #00b2dd; */
+      /* border: 1px solid #00b2dd; */
+      float: none;
+      padding: 10px 0 10px 10px;
+      width: 22%;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) 
+  and (orientation: landscape) { 
+
+    #profile-pic {
+      /* background-color: #00b2dd; */
+      /* border: 1px solid #00b2dd; */
+      float: left;
+      padding: 10px 0 10px 10px;
+      width: 34%;
+    }
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
