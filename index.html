@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="screen.css" media="screen" rel="stylesheet" type="text/css" />
     <title>YOUR NAME</title>
   </head>
   <body class="index">
     <div id="main" role="main">
 
-      <header>
+      <header id="header">
         <div id="wrapper">
           <div id="profile-pic">
             <img src="images/profile_pic.jpg" height="175" width="175"/>
@@ -23,15 +24,47 @@
         </div>
       </header>
 
-      <nav>
-        <a href="index.html">Week 1</a>
-        <a href="week-2.html">Week 2</a>
+      <nav id="nav">
+          <div class="dropdown">
+              <span style="color:#222;height: 44px;">Resources</span>
+              <div class="dropdown-content">
+                <p class="dropdown-link"><a href="https://www.w3schools.com/" target="_blank">w3schools</a></p>
+                <p class="dropdown-link"><a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developers</a></p>
+                <p class="dropdown-link"><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></p>
+              </div>
+          </div>
+          <div class="nav-button">
+            <a href="index.html">Week 1</a>
+          </div>
+          <div class="nav-button">
+            <a href="week-2.html">Week 2</a>
+          </div>
       </nav>
 
-      <p class="weekly-header">Week 1</p>
+      <div id="content">
 
-      <div id="scratch-week-1">
-        <iframe src="https://scratch.mit.edu/projects/331956467/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <p id="clear" class="weekly-header">Week 1</p>
+
+        <div id="scratch-week-1">
+          <iframe style="margin:1%;" src="https://scratch.mit.edu/projects/331956467/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        </div>
+
+        <h1 class="content-header">Scratch Program One</h1>
+        <p class="questions">Create an account at <a style="color:#005B6D;text-decoration:underline;" href="http://scratch.mit.edu" target="_blank">http://scratch.mit.edu</a> if necessary.</p>
+
+
+        <p class="questions">Complete the following Scratch problem:</p>
+        <p class="questions">1. Put a small sprite of your choice into each corner of the stage.</p>
+        <p class="questions">2. Using the "friction marble" sprite have the user touch all four sprites in the corners. Have the program stop when the last sprite is touched. </p>
+        <p class="questions"> - <a style="color:#005B6D;text-decoration:underline;" href="https://drive.google.com/file/d/1pPpPyy13ZckyABnzqOnZJehpKDojgjqZ/view" target="_blank">Friction Marble Sprite Download</a></p>
+        <p style="padding-bottom:2%;" class="questions"> - Optionally display the number of seconds it took to "beat" the game.</p>
+
+
+        <div id="footer">
+            <p id="footer-text-top">Week 1 | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 | Week 8 | Week 9 | Week 10 | Week 11</p>
+          <p id="footer-text-centered">This website can be copied by anyone verbatim for any use.</p>
+        </div>
+
       </div>
 
     </div>

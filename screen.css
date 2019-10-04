@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,15 +52,85 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   font-family: sans-serif;
-  color: #2a2a2a; }
+  color: #2a2a2a;
+  background-color: #6f6f6f;
+  height: auto;
+}
 
 a {
-  color: #0388a6; }
-  a:hover {
-    color: #009ce0; }
+  color: #fff;
+  text-decoration:none;
+}
+
+a:hover {
+    color: #fff;
+  }
 
 #main {
-  padding: 50px; }
+  margin: 0px;
+  padding: 0px; }
+
+#nav {
+  padding: 0% 0 0% 0%;
+  margin: 0 0 0px 0%;
+  background-color:#1F1F1F;
+  border-top: 1px solid #fff;
+  height:55px;
+  z-index:10;
+}
+
+.nav-button {
+  background-color: #1F1F1F;
+  float: left;
+  padding: 1% 1% 1% 1%;
+}
+
+.nav-button:hover {
+  background-color: #94B9AF;
+  float: left;
+  padding: 1% 1% 1% 1%;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+  background-color: #D3D3D3;
+  padding: 1% 1% 1% 1%;
+  float:left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #C0C0C0;
+  min-width: 160px;
+  padding: 0;
+  z-index: 10;
+  margin: 19px 0 0 -20px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-link {
+  border-bottom:1px solid #222;
+  padding:10% 0 10% 7%;
+}
+
+#content {
+  background-color: #fff;
+  width:80%;
+  display: block;
+  margin:0px auto;
+  height:100%;
+  position: relative;
+  z-index: 0;
+}
+
+#clear {
+  clear:both;
+}
 
 /* End of CS 160 Code                                                                      */
 
@@ -66,29 +141,63 @@ a {
 
 #name-and-bio {
   /* border: 1px solid red; */
-  /* float: left; */
-  padding: 10px 0 10px 10px;
+  float: left;
+  padding: 1% 0 0px 0px;
 }
 
 #name-tag {
   font-size: 16pt;
+  color: #fff;
 }
 
 .sub-name-tag {
   font-size: 10pt;
+  color: #fff;
 }
 
 #profile-pic {
   /* background-color: #00b2dd; */
   /* border: 1px solid #00b2dd; */
   float: left;
-  padding: 10px 0 10px 10px;
-  width: 22%;
+  padding: 1%;
+}
+
+#header {
+  background-color: #0D1321;
+}
+
+#game-wrapper {
+  /* background-color: red; */
+  clear:both;
+  width:100%;
+}
+
+#game-1 {
+  border: 1px solid #222;
+  /* background-color: red; */
+  margin:2% 4% 0 2%;
+  overflow: hidden;
+  float: left;
+  width: 40%;
+}
+
+#game-2 {
+  border: 1px solid #222;
+  /* background-color: red; */
+  margin:2% 4% 0 2%;
+  overflow: hidden;
+  float:left;
+  width: 40%;
 }
 
 .weekly-header {
   font-size: 24pt;
-  padding: 10px 0 10px 10px;
+  padding: 1%;
+  background-color: #fff;
+}
+
+#scratch-week-1 {
+  background-color: #fff;
 }
 
 .content-header {
@@ -104,133 +213,26 @@ a {
   overflow: hidden;
 }
 
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
+.chapter-header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12pt;
+  margin-left:4%;
 }
 
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+#footer {
+  background-color: #000;
+  height:300px;
+  margin:4% 0 0 0;
 }
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
+#footer-text-top {
+  color:#fff;
+  padding:10% 0 0 0;
+  text-align:center;
 }
 
-/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-}
-
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-width: 375px) 
-  and (max-width: 667px) { 
-    #profile-pic {
-      /* background-color: #00b2dd; */
-      /* border: 1px solid #00b2dd; */
-      float: none;
-      padding: 10px 0 10px 10px;
-      width: 22%;
-    }
-
-    
-}
-
-/* Portrait */
-@media only screen 
-  and (min-width: 375px) 
-  and (max-width: 667px) 
-  and (orientation: portrait) { 
-
-    #profile-pic {
-      /* background-color: #00b2dd; */
-      /* border: 1px solid #00b2dd; */
-      float: none;
-      padding: 10px 0 10px 10px;
-      width: 22%;
-    }
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-width: 375px) 
-  and (max-width: 667px) 
-  and (orientation: landscape) { 
-
-    #profile-pic {
-      /* background-color: #00b2dd; */
-      /* border: 1px solid #00b2dd; */
-      float: left;
-      padding: 10px 0 10px 10px;
-      width: 34%;
-    }
-
-}
-
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
+#footer-text-centered {
+  color:#fff;
+  padding:1%;
+  text-align:center;
 }
