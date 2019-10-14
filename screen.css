@@ -24,7 +24,12 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 body {
-  line-height: 1; }
+  font-family: sans-serif;
+  color: #2a2a2a;
+  background-color: #6f6f6f;
+  height: auto;
+  line-height: 1; 
+}
 
 ol, ul {
   list-style: none; }
@@ -49,13 +54,6 @@ a img {
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
-
-body {
-  font-family: sans-serif;
-  color: #2a2a2a;
-  background-color: #6f6f6f;
-  height: auto;
-}
 
 a {
   color: #fff;
@@ -116,6 +114,78 @@ a:hover {
 .dropdown-link {
   border-bottom:1px solid #222;
   padding:10% 0 10% 7%;
+}
+
+.dropdown-link:hover {
+  border-bottom:1px solid #222;
+  background-color: #222;
+  padding:10% 0 10% 7%;
+}
+
+#home-links {
+  background-color: #6f6f6f;
+  padding:2% 2% 2% 2%;
+}
+
+.ind-home-links {
+  background-color:#222;
+  padding:2% 2% 2% 2%;
+  color:#fffdd0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ind-home-links:hover {
+  background-color:#000;
+  padding:2% 2% 2% 2%;
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.course-desc {
+  background-color: #fffdd0;
+  padding: 2%;
+  line-height: 32pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link-reading {
+  color:#00008B;
+}
+
+.link-reading:hover {
+  color:#003EFF;
+  text-decoration: underline;
+}
+
+#reading-list {
+  border: 1px solid #222;
+  background-color: #fffdd0;
+  padding:2%;
+  margin:2%;
+}
+
+#reading-list li {
+  background-color: #fffdd0;
+  padding:0% 0 2% 0;
+}
+
+#book-wrapper {
+  background-color:#fffdd0;
+  border-top:4px solid #222;
+  width:100%;
+  overflow:hidden;
+}
+
+#dreaming-left {
+  background-color: #fffdd0;
+  width:50%;
+  float:left;
+}
+
+#code-right {
+  background-color: #fffdd0;
+  width:50%;
+  float:left;
 }
 
 #content {
@@ -222,7 +292,7 @@ a:hover {
 #footer {
   background-color: #000;
   height:300px;
-  margin:4% 0 0 0;
+  margin:0% 0 0 0;
 }
 
 #footer-text-top {
