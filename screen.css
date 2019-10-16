@@ -148,6 +148,14 @@ a:hover {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.course-desc-2 {
+  background-color: #fff;
+  padding: 2%;
+  line-height: 32pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border:1px solid #fff;
+}
+
 .link-reading {
   color:#00008B;
 }
@@ -162,11 +170,29 @@ a:hover {
   background-color: #fffdd0;
   padding:2%;
   margin:2%;
+  overflow: hidden;
 }
 
 #reading-list li {
   background-color: #fffdd0;
   padding:0% 0 2% 0;
+}
+
+.college-cols {
+  background-color: #222;
+  float:left;
+  width:48%;
+  margin-right:2%;
+  padding:2%;
+  border:1px solid #fff;
+}
+h4 {
+  margin-bottom:2%;
+  text-align:center;
+  font-weight:bold;
+  text-decoration: underline;
+  font-size: 16pt;
+  color:#fff;
 }
 
 #book-wrapper {
