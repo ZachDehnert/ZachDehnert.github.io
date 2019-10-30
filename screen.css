@@ -205,6 +205,26 @@ a:hover {
   overflow: hidden;
 }
 
+#reading-list-android-app {
+  border: 1px solid #222;
+  background-color: #fffdd0;
+  padding:2%;
+  margin:2%;
+  overflow: hidden;
+  width:30%;
+  float:right;
+}
+
+#reading-list-android-app-bio {
+  border: 1px solid #222;
+  background-color: #fffdd0;
+  padding:2%;
+  margin:2%;
+  overflow: hidden;
+  width:62%;
+  float:left;
+}
+
 #reading-list-embed {
   border: 1px solid #222;
   background-color: #fffdd0;
