@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="screen.css" media="screen" rel="stylesheet" type="text/css" />
     <title>Zach Dehnert's Portfolio</title>
   </head>
@@ -25,18 +27,57 @@
       </header>
 
 
-      <nav id="nav">
-          <div class="dropdown">
-              <span style="color:#222;height: 44px;">Resources</span>
-              <div class="dropdown-content">
-                <p class="dropdown-link"><a href="https://www.w3schools.com/" target="_blank">w3schools</a></p>
-                <p class="dropdown-link"><a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developers</a></p>
-                <p class="dropdown-link"><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></p>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="https://catalog.cocc.edu/course-outlines/cs-160/" target="_blank">CS160 at COCC</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li>
+              
+              <div class="dropdown">
+                <span class="navbar-brand" style="margin-left:2%;">Resources</span>
+                <div class="dropdown-content">
+                  <p class="dropdown-link"><a href="https://www.w3schools.com/" target="_blank">w3schools</a></p>
+                  <p class="dropdown-link"><a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developers</a></p>
+                  <p class="dropdown-link"><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></p>
+                </div>
               </div>
-          </div>
-          <div class="nav-button">
-            <a href="index.html">Home</a>
-          </div>
+
+            </li>
+            <li><a href="https://docs.google.com/document/d/1CTOv7jXs-ZSU18rgLAk_d3KMGqalL5ad0XgmSzZXWw0/edit" target="_blank">WEEK 6 MIDTERM RUBRIC</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <nav id="nav">
+
+        <div class="nav-button">
+          <a style="padding-top:100px;" href="week-2.html">Scratch Programs</a>
+        </div>
+        <div class="nav-button">
+          <a style="padding-top:100px;" href="reading.html">Q's From Reading</a>
+        </div>
+        <div class="nav-button">
+          <a style="padding-top:100px;" href="appInvent.html">App Inventor</a>
+        </div>
+        <div class="nav-button">
+            <a style="padding-top:100px;" href="processing.html">Processing Programs</a>
+        </div>
+        <div class="nav-button">
+          <a style="padding-top:100px;" href="colleges.html">CS Pathways</a>
+        </div>
+        <div class="nav-button">
+          <a style="padding-top:100px;" href="pythonGame.html">Rock Paper Scissors</a>
+        </div>
+        <div class="nav-button">
+          <a style="padding-top:100px;" href="pythonGame2.html">Mastermind</a>
+        </div>
+        <div class="nav-button">
+            <a style="padding-top:100px;" href="codehs.html">Code HS Student Page</a>
+        </div>
+
       </nav>
 
       <div id="content">
@@ -66,23 +107,20 @@
                 <img style="display:block;margin:2% auto;margin-bottom:4%;" src="images/oit.jpg">
                 <p class="course-desc-2">My first choice is OIT since I am going into Cybersecurity. OSU is a real option if I want to be a cybersecurity engineer, but I have been leaning towards being a pentester. I coded websites for about three years, and it got to a level of numbness from looking at code day in and out. I found that I like working with technology more than creating it. OIT is another amazing college, and they have the Cybersecurity Center there. I could finish up there and from what I heard the professors do a great job at helping you find work after graduating.
                 <br>
-                Wow, I just Googled OIT to <a style="color:blue;text-decoration: underline;" href=”https://www.oit.edu/academics/degrees/cybersecurity”>look at their</a> BS and graduate programs, and they now have a BS in cybersecurity as of Fall of this year (2019). I didn’t know they would be that good of a fit, I was planning on getting their BS in IT online degree.</p>
+                Wow, I just Googled OIT to <a style="color:blue;text-decoration: underline;" href="https://www.oit.edu/academics/degrees" target="_blank">look at their</a> BS and graduate programs, and they now have a BS in cybersecurity as of Fall of this year (2019). I didn’t know they would be that good of a fit, I was planning on getting their BS in IT online degree.</p>
 
                 <h4 style="background-color: white;color: #222;margin:0px;">Graduate Program Opportunities</h4>
                 <p class="course-desc-2">The Cyber Defense Center at OIT is pretty great. The volume of work they are going to get is pretty phenomenal. They give businesses are free assessment, which will give the Center a huge amount of experience. The director of the Center is Brian Page, who has 20 years experience in cybersecurity. That alone is great since they have experience when there were mainly manuals for how devices worked. I am guessing there was not a career pathway as great as today for cybersecurity when he started. So anyone who can get around computers like that is very talented in my book.</p>
                 <img style="display:block;margin:4% auto;" src="images/researchAtOIT.jpg">
                 <p class="course-desc-2">Around 7 years ago I was planning on going to OIT for a dual degree in software engineering and hardware engineering, but wasn't very passionate about it. The one sense of the atmosphere at OIT was that it was hands on is the best way to learn. I think that is what they are doing with their graduate research. On their website they call it a "teaching hospital" for cybersecurity students. This is kind of beyond hands on lab work, since you can work for a real company doing a free assessment.</p>
                 <h4 style="background-color: white;color: #222;margin:0px;padding:2% 0 0 0;">Yearly Course Classes</h4>
-                <p class="course-desc-2">The courses and their descriptions is down for the cybersecurity degree website and their IT website. If you go <a style="color:blue;" href="https://www.oit.edu/academics/degrees/cybersecurity" target="_blank">here</a> and click View Program Requirements, they site goes to a 404 error page.</p>
+                <p class="course-desc-2">Below are the classes I will have to take. OIT is notorious for not accepting COCC credit so there will be quite a bit more to take at OIT than if I went to OSU.</p>
 
-                <img style="display:block;margin:4% auto;width:100%;" src="images/courses.jpg">
-
-                <!--
                 <img style="display:block;margin:4% auto;" src="images/oitYearOne.jpg">
                 <img style="display:block;margin:4% auto;" src="images/oitYearTwo.jpg">
                 <img style="display:block;margin:4% auto;" src="images/oitYearThree.jpg">
                 <img style="display:block;margin:4% auto;" src="images/oitYearFour.jpg">
-                -->
+                
             </div>
 
         </div>
@@ -100,9 +138,13 @@
         </div>
 
         <div style="clear:both;" id="footer">
-                <p id="footer-text-top"><a href="week-2.html">Scratch Programs</a> | <a href="reading.html">Questions From Reading</a> | <a href="appInvent.html">App Inventor</a></p>
-              <p id="footer-text-centered">This website can be copied by anyone verbatim for any use.</p>
-        </div>
+            <p id="footer-text-top">
+                
+                <a href="week-2.html">Scratch Programs</a> | <a href="reading.html">Questions From Reading</a> | <a href="appInvent.html">App Inventor</a> | <a href="processing.html">Processing Programs</a> | <a href="colleges.html">CS Pathways</a> | <a href="pythonGame.html">Rock Paper Scissors</a> | <a href="pythonGame2.html">Mastermind Game</a>
+            
+            </p>
+          <p id="footer-text-centered">This website can be copied by anyone verbatim for any use.</p>
+    </div>
 
       </div>
 

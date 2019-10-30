@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="screen.css" media="screen" rel="stylesheet" type="text/css" />
     <title>Zach Dehnert's Portfolio</title>
   </head>
@@ -25,18 +27,57 @@
       </header>
 
 
-      <nav id="nav">
-          <div class="dropdown">
-              <span style="color:#222;height: 44px;">Resources</span>
-              <div class="dropdown-content">
-                <p class="dropdown-link"><a href="https://www.w3schools.com/" target="_blank">w3schools</a></p>
-                <p class="dropdown-link"><a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developers</a></p>
-                <p class="dropdown-link"><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></p>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="https://catalog.cocc.edu/course-outlines/cs-160/" target="_blank">CS160 at COCC</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li>
+              
+              <div class="dropdown">
+                <span class="navbar-brand" style="margin-left:2%;">Resources</span>
+                <div class="dropdown-content">
+                  <p class="dropdown-link"><a href="https://www.w3schools.com/" target="_blank">w3schools</a></p>
+                  <p class="dropdown-link"><a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developers</a></p>
+                  <p class="dropdown-link"><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></p>
+                </div>
               </div>
-          </div>
-          <div class="nav-button">
-            <a href="index.html">Home</a>
-          </div>
+
+            </li>
+            <li><a href="https://docs.google.com/document/d/1CTOv7jXs-ZSU18rgLAk_d3KMGqalL5ad0XgmSzZXWw0/edit" target="_blank">WEEK 6 MIDTERM RUBRIC</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <nav id="nav">
+
+        <div class="nav-button">
+          <a style="padding-top:100px;" href="week-2.html">Scratch Programs</a>
+        </div>
+        <div class="nav-button">
+          <a style="padding-top:100px;" href="reading.html">Q's From Reading</a>
+        </div>
+        <div class="nav-button">
+          <a style="padding-top:100px;" href="appInvent.html">App Inventor</a>
+        </div>
+        <div class="nav-button">
+            <a style="padding-top:100px;" href="processing.html">Processing Programs</a>
+        </div>
+        <div class="nav-button">
+          <a style="padding-top:100px;" href="colleges.html">CS Pathways</a>
+        </div>
+        <div class="nav-button">
+          <a style="padding-top:100px;" href="pythonGame.html">Rock Paper Scissors</a>
+        </div>
+        <div class="nav-button">
+          <a style="padding-top:100px;" href="pythonGame2.html">Mastermind</a>
+        </div>
+        <div class="nav-button">
+            <a style="padding-top:100px;" href="codehs.html">Code HS Student Page</a>
+        </div>
+
       </nav>
 
       <div id="content">
@@ -69,9 +110,13 @@
         </div>
 
         <div style="clear:both;" id="footer">
-                <p id="footer-text-top"><a href="week-2.html">Scratch Programs</a> | <a href="reading.html">Questions From Reading</a> | <a href="appInvent.html">App Inventor</a></p>
-              <p id="footer-text-centered">This website can be copied by anyone verbatim for any use.</p>
-        </div>
+            <p id="footer-text-top">
+                
+                <a href="week-2.html">Scratch Programs</a> | <a href="reading.html">Questions From Reading</a> | <a href="appInvent.html">App Inventor</a> | <a href="processing.html">Processing Programs</a> | <a href="colleges.html">CS Pathways</a> | <a href="pythonGame.html">Rock Paper Scissors</a> | <a href="pythonGame2.html">Mastermind Game</a>
+            
+            </p>
+          <p id="footer-text-centered">This website can be copied by anyone verbatim for any use.</p>
+    </div>
 
       </div>
 
