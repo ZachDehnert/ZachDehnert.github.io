@@ -4,7 +4,7 @@ let mass = 2.0;
 
 function setup() {
   var canvas = createCanvas(800, 600);
-  canvas.parent('sketch-holder');
+  canvas.parent('sketch-holder-2');
   fill(255, 126);
   // Inputs: x, y, mass, gravity
   s1 = new Spring2D(0.0, width / 2, mass, gravity);

@@ -169,7 +169,23 @@ a:hover {
   overflow: hidden;
 }
 
-#sketch-holder {
+#sketch-holder-1 {
+  background-color:transparent;
+  max-width:58%;
+  display:block;
+  margin:0px auto;
+  border:1px solid #222;
+}
+
+#sketch-holder-2 {
+  background-color:transparent;
+  max-width:58%;
+  display:block;
+  margin:0px auto;
+  border:1px solid #222;
+}
+
+#sketch-holder-3 {
   background-color:transparent;
   max-width:58%;
   display:block;
@@ -409,4 +425,23 @@ h4 {
   color:#fff;
   padding:1%;
   text-align:center;
+}
+
+#img-container {
+  background-color: #fffdd0;
+  border:1px solid #222;
+  margin:4% 0 2% 2%;
+  width:400px;
+  float:left;
+}
+
+#img-container img {
+  margin:2% 2% 2% 2%;
+}
+
+#threes-container {
+  background-color: #fff;
+  width:100%;
+  height:500px;
+  z-index: 1;
 }
