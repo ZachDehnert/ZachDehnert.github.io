@@ -1,0 +1,447 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+body {
+  font-family: sans-serif;
+  color: #2a2a2a;
+  background-color: #6f6f6f;
+  height: auto;
+  line-height: 1; 
+}
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+a {
+  color: #fff;
+  text-decoration:none;
+}
+
+a:hover {
+    color: #fff;
+  }
+
+#main {
+  margin: 0px;
+  padding: 0px; }
+
+#nav {
+  padding: 0% 0 0% 0%;
+  margin: 0 0 0px 0%;
+  background-color:#1F1F1F;
+  border-top: 1px solid #fff;
+  min-height:55px;
+  z-index:10;
+  overflow:hidden;
+}
+.navbar {
+  margin-bottom:0;
+}
+
+.nav-button {
+  background-color: #1F1F1F;
+  float: left;
+  padding: 1% 1% 1% 1%;
+  min-height:55px;
+}
+
+.nav-button:hover {
+  background-color: #94B9AF;
+  float: left;
+  padding: 1% 1% 1% 1%;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+  background-color: #D3D3D3;
+  padding: 1% 1% 1% 1%;
+  float:left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #C0C0C0;
+  min-width: 160px;
+  padding: 0;
+  z-index: 10;
+  margin: 0px 0 0 0px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-link {
+  border-bottom:1px solid #222;
+  padding:10% 0 10% 7%;
+}
+
+.dropdown-link:hover {
+  border-bottom:1px solid #222;
+  background-color: #222;
+  padding:10% 0 10% 7%;
+}
+
+#home-links {
+  background-color: #6f6f6f;
+  padding:2% 2% 2% 2%;
+}
+
+.ind-home-links {
+  background-color:#222;
+  padding:2% 2% 2% 2%;
+  color:#fffdd0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ind-home-links:hover {
+  background-color:#000;
+  padding:2% 2% 2% 2%;
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.course-desc {
+  background-color: #fffdd0;
+  padding: 2%;
+  line-height: 32pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.course-desc-2 {
+  background-color: #fff;
+  padding: 2%;
+  line-height: 32pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border:1px solid #fff;
+}
+
+#main-div {
+  border: 1px solid #222;
+  background-color: #fffdd0;
+  padding:2%;
+  margin:2%;
+  overflow: hidden;
+}
+
+#sketch-holder-1 {
+  background-color:transparent;
+  max-width:58%;
+  display:block;
+  margin:0px auto;
+  border:1px solid #222;
+}
+
+#sketch-holder-2 {
+  background-color:transparent;
+  max-width:58%;
+  display:block;
+  margin:0px auto;
+  border:1px solid #222;
+}
+
+#sketch-holder-3 {
+  background-color:transparent;
+  max-width:58%;
+  display:block;
+  margin:0px auto;
+  border:1px solid #222;
+}
+
+.codehs-images {
+  display:block;
+  margin:2% auto;
+}
+
+.codehs-images-float {
+  display:block;
+  margin:2% 2% 2% 0;
+  float:left;
+}
+
+.link-reading {
+  color:#00008B;
+}
+
+.link-reading:hover {
+  color:#003EFF;
+  text-decoration: underline;
+}
+
+#reading-list {
+  border: 1px solid #222;
+  background-color: #fffdd0;
+  padding:2%;
+  margin:2%;
+  overflow: hidden;
+}
+
+#reading-list-android-app {
+  border: 1px solid #222;
+  background-color: #fffdd0;
+  padding:2%;
+  margin:2%;
+  overflow: hidden;
+  width:30%;
+  float:right;
+}
+
+#reading-list-android-app-bio {
+  border: 1px solid #222;
+  background-color: #fffdd0;
+  padding:2%;
+  margin:2%;
+  overflow: hidden;
+  width:62%;
+  float:left;
+}
+
+#reading-list-embed {
+  border: 1px solid #222;
+  background-color: #fffdd0;
+  padding:2%;
+  margin:2%;
+  overflow: hidden;
+  height:1000px;
+}
+
+#reading-list li {
+  background-color: #fffdd0;
+  padding:0% 0 2% 0;
+}
+
+.college-cols {
+  background-color: #222;
+  float:left;
+  width:48%;
+  margin-right:2%;
+  padding:2%;
+  border:1px solid #fff;
+}
+h4 {
+  margin-bottom:2%;
+  text-align:center;
+  font-weight:bold;
+  text-decoration: underline;
+  font-size: 16pt;
+  color:#fff;
+}
+
+.procBtn {
+  background-color: #0D1321;
+  width:31%;
+  height:100px;
+  float:left;
+  margin:0 0 2% 2%;
+}
+
+.procP {
+  display:block;
+  text-align:center;
+  margin:8% 0 0 0;
+  font-size:16pt;
+}
+
+#book-wrapper {
+  background-color:#fffdd0;
+  border-top:4px solid #222;
+  width:100%;
+  overflow:hidden;
+}
+
+#dreaming-left {
+  background-color: #fffdd0;
+  width:50%;
+  float:left;
+}
+
+#code-right {
+  background-color: #fffdd0;
+  width:50%;
+  float:left;
+}
+
+#content {
+  background-color: #fff;
+  width:80%;
+  display: block;
+  margin:0px auto;
+  height:100%;
+  position: relative;
+  z-index: 0;
+}
+
+#clear {
+  clear:both;
+}
+
+/* End of CS 160 Code                                                                      */
+
+.chapter-header {
+  font-weight: bold;
+  padding: 10px 0 10px 10px;
+}
+
+#name-and-bio {
+  /* border: 1px solid red; */
+  float: left;
+  padding: 1% 0 0px 0px;
+}
+
+#name-tag {
+  font-size: 16pt;
+  color: #fff;
+}
+
+.sub-name-tag {
+  font-size: 10pt;
+  color: #fff;
+}
+
+#profile-pic {
+  /* background-color: #00b2dd; */
+  /* border: 1px solid #00b2dd; */
+  float: left;
+  padding: 1%;
+}
+
+#header {
+  background-color: #0D1321;
+}
+
+#game-wrapper {
+  /* background-color: red; */
+  clear:both;
+  width:100%;
+  margin:0 0 2% 0;
+  overflow:hidden;
+}
+
+#game-1 {
+  border: 1px solid #222;
+  /* background-color: red; */
+  margin:2% 4% 0 2%;
+  overflow: hidden;
+  float: left;
+  width: 40%;
+}
+
+#game-2 {
+  border: 1px solid #222;
+  /* background-color: red; */
+  margin:2% 4% 0 2%;
+  overflow: hidden;
+  float:left;
+  width: 40%;
+}
+
+.weekly-header {
+  font-size: 24pt;
+  padding: 1%;
+  background-color: #fff;
+}
+
+#scratch-week-1 {
+  background-color: #fff;
+}
+
+.content-header {
+  font-size: 16pt;
+  padding: 10px 10px 10px 10px;
+}
+.questions {
+  padding: 10px 0 10px 10px;
+}
+
+#wrapper {
+  /* border: 1px solid purple; */
+  overflow: hidden;
+}
+
+.chapter-header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12pt;
+  margin-left:4%;
+}
+
+#footer {
+  background-color: #000;
+  height:300px;
+  margin:0% 0 0 0;
+}
+
+#footer-text-top {
+  color:#fff;
+  padding:10% 0 0 0;
+  text-align:center;
+}
+
+#footer-text-centered {
+  color:#fff;
+  padding:1%;
+  text-align:center;
+}
+
+#img-container {
+  background-color: #fffdd0;
+  border:1px solid #222;
+  margin:4% 0 2% 2%;
+  width:400px;
+  float:left;
+}
+
+#img-container img {
+  margin:2% 2% 2% 2%;
+}
+
+#threes-container {
+  background-color: #fff;
+  width:100%;
+  height:500px;
+  z-index: 1;
+}
